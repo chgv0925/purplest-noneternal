@@ -1,0 +1,27 @@
+{
+  "name": "pingpong-score",
+  "description": "A bundle for live ping pong match score updates",
+  "version": "1.0.0",
+  "main": "extension.js",
+  "nodecg": {
+    "compatibleRange": "^2.2.4",
+    "dashboardPanels": [
+      {
+        "name": "control",
+        "title": "Ping Pong Score Control",
+        "file": "control.html",
+        "width": 4,
+        "height": 6,
+        "singleInstance": true
+      }
+    ],
+    "graphics": [
+      {
+        "file": "scoreboard.html",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,64 @@
+/dist
+/out
+.eslintcache
+
+# Node / Bower
+bower_components
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Local bundles
+# /bundles/**
+
+# Datastores
+/db/**
+
+# Logs
+/logs/**
+
+# Configs
+/cfg
+
+# OS specific
+.DS_Store
+
+# IDE files
+/.idea
+/.vscode
+
+# Code coverage results
+/coverage
+.nyc_output
+
+# Test folders
+/bundles2
+/bundles_off
+/_workingTest
+
+# Docs
+checkout
+docs
+.grunt
+
+# Assets
+/assets
+
+# Build artifacts
+/build
+/build-types
+/generated-types/client
+/generated-types/server
+/generated-types/shared
+/generated-types/types
+
+# Don't ignore .empty_directory files
+!.empty_directory
+
+ormconfig.json
+
+# temporarily move node_modules for type package test
+tmp_node_modules
+
+# release asset
+/*.tgz

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Control</title>
+    <link rel="stylesheet" href="control.css">
+</head>
+<body>
+    <h1>Ping Pong Score Control Panel</h1>
+    <div>
+        <label>Team 1 Name: <input id="team1-name" type="text" value="Team A" /></label>
+    </div>
+    <div>
+        <label>Team 1 Score: <input id="team1-score" type="number" value="0" /></label>
+    </div>
+    <div>
+        <label>Team 2 Name: <input id="team2-name" type="text" value="Team B" /></label>
+    </div>
+    <div>
+        <label>Team 2 Score: <input id="team2-score" type="number" value="0" /></label>
+    </div>
+    <button id="update">Update Score</button>
+    <button id="reset-score">Reset Score</button>
+    <button id="reset-all">Reset All</button>
+    <script src="control.js"></script>
+</body>
+</html>

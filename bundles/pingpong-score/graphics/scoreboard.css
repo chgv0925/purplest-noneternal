@@ -1,0 +1,71 @@
+/* scoreboard.css */
+body {
+    background-color: transparent; /* Transparent background */
+    font-family: Arial, sans-serif;
+}
+
+.scoreboard {
+    background-color: #1a2a4a; /* Dark blue background */
+    border-radius: 10px;
+    padding: 10px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for 3D effect */
+    border: 2px solid #1e3a5f; /* Slightly darker border */
+}
+
+/* Logo styling, positioned to the left */
+.tournament-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Space between logo and team info */
+}
+
+/* Team information container (next to the logo) */
+.team-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Team container with different background colors */
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #243a5e, #1f2f4e); /* Gradient for a 3D effect */
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.4); /* Inner shadow for each team section */
+}
+
+/* Background colors for visual separation */
+#team1 {
+    background-color: #243a5e; /* Darker blue for Team A */
+    margin-bottom: 2px; /* Adds spacing between teams */
+}
+
+#team2 {
+    background-color: #2a456d; /* Slightly different blue for Team B */
+}
+
+/* Team name styling */
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Score styling */
+.score {
+    background-color: #d9232e; /* Red background for the score */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-align: center;
+    min-width: 40px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.4); /* Inner shadow for 3D effect */
+}
